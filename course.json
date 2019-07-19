@@ -6,65 +6,65 @@
   "scenarios": [
     {
       "title": "实验一：流处理基础实验",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
           "title": "实验一：流处理基础实验",
           "text": "scenarios/实验一：流处理基础实验.md",
-		  "program": "scripts/pre.sh",
+	  "program": "scripts/pre.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
       "title": "实验二：用Java+API处理流数据Integer类型",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
           "title": "实验二：用Java+API处理流数据Integer类型",
           "text": "scenarios/实验二：用Java+API处理流数据Integer类型.md",
-		  "program": "scripts/pre.sh",
+	  "program": "scripts/pre.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
       "title": "实验三：用Java+API处理流数据String类型",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
           "title": "实验三：用Java+API处理流数据String类型",
           "text": "scenarios/实验三：用Java+API处理流数据String类型.md",
-		  "program": "scripts/pre.sh",
+	  "program": "scripts/pre.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
       "title": "实验四：用Java API处理流数据",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
           "title": "实验四：用Java API处理流数据",
           "text": "scenarios/实验四：用Java API处理流数据.md",
-		  "program": "scripts/pre.sh",
+	  "program": "scripts/pre.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
     {
       "title": "实验五：流数据的模拟与统计应用",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
           "title": "实验五：流数据的模拟与统计应用",
           "text": "scenarios/实验五：流数据的模拟与统计应用.md",
-		  "program": "scripts/pre.sh",
+	  "program": "scripts/pre.sh",
           "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
