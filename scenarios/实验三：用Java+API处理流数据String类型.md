@@ -1,11 +1,11 @@
-#实验目的
+# 实验目的
 掌握Java API方式对Kafka实现String类型数据发送和接收。
-#实验原理
+# 实验原理
 大数据的流处理分析中实时数据的发送和接收是基本操作，也是进行深入分析的基础，本实验完成Kafka消息生产者和消费者之间的消息发送和接收。Java API方式是更加常用的流数据写入和读取的方式，本实验就是学习通过Java编程实现对Kafka消息发送与接收。
-#实验步骤
+# 实验步骤
 在桌面中启动eclipse，创建工程kafkastringdemo, 编写和执行下面的代码
 
-#####Producer数据生产者 Java代码
+##### Producer数据生产者 Java代码
 ```
 package com.inforstack.kafka.demo;
 
@@ -77,7 +77,7 @@ public class Producer extends Thread {
 
 ```
 
-#####Consumer 消费者Java代码
+##### Consumer 消费者Java代码
 ```
 package com.inforstack.kafka.demo;
 
@@ -155,7 +155,7 @@ public class Consumer extends Thread {
 }
 
 ```
-#####KafkaConsumerProducerDemo Java代码
+##### KafkaConsumerProducerDemo Java代码
 ```
 package com.inforstack.kafka.demo;
 
@@ -173,7 +173,7 @@ public class App {
 ```
 
 代码整理后目录截图如下:
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-1_20180404065002.002.png)
+![](/images/1-1_20180404065002.002.png)
 
-#执行方法
+# 执行方法
 - 在APP.java文件上右键Run as -〉 Java Application，观察实验结果
