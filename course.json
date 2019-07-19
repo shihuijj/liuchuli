@@ -6,7 +6,7 @@
   "scenarios": [
     {
       "title": "实验一：流处理基础实验",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop-latest",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base-latest",
       "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"], 
       "steps": [
         {
