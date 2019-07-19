@@ -146,7 +146,7 @@ public class App
 ```
 
 代码整理后目录截图如下:
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/2-5_20171204045636.036.png)
+![](/images/2-5_20171204045636.036.png)
 
 执行方式：
 ```
@@ -154,4 +154,4 @@ cd ~/exercise/exercise_3
 java -jar kafkademo-0.0.1-SNAPSHOT.jar
 ```
 执行结果：
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/2-6_20171204045903.003.png)
+![](/images/2-6_20171204045903.003.png)
